@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+:root {
+    --primary-color: #007bff;
+    --dark-color: #333;
+    --light-color: #f4f4f4;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.hero {
+    background: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0; 
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+#grade-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+input[type='number'] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    font-size: 1rem;
+}
+button {
+    display: block;
+    width: 100%;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: #0056b3;
+}
+#result {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px;
+    background: #e9ecef;
+    border-radius: 5px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
