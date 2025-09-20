@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Manager</title>
+<link rel="stylesheet" href="employee.css">
+</head>
+<body>
+<header class="hero">
+  <h1>Employee Management System</h1>
+  <p>An Interactive DOM Showcase for our Hackathon</p>
+</header>
+<div class="card">
+  <h2>Employee Manager</h2>
+  <div class="button-group">
+    <button onclick="showNames()">Show Names</button>
+    <button onclick="filterSalary()">Filter Salary > 40,000</button>
+    <button onclick="totalSalary()">Total Salary Expense</button>
+  </div>
+  <div class="employee-output" id="employeeOutput"></div>
+</div>
+<script src="employee.js"></script>
+</body>
+</html>
