@@ -14,7 +14,7 @@ body{
 
 header{
    color: white;
-   background-color: rgb(4, 4, 75);
+   background-color: rgba(78, 78, 255, 0.902);
    padding: 20px;
    margin-bottom: 30px;
 }
@@ -90,6 +90,8 @@ ul li:hover{
     height: 100%;  
     margin-left: 26%;
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
    
 }
 
